@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lethal Company</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div id="home"></div>
+    <nav>
+      <div class="nav-wrap">
+        <a
+          onclick="scrollToElement(home)"
+          onmouseenter="navLogoHover()"
+          onmouseleave="navLogoHover()"
+          class="nav-logo-wrap"
+        >
+          <img class="nav-logo" src="./svg/logo.svg" />
+        </a>
+        <a onclick="scrollToElement(home)" class="nav-button">Home</a>
+        <a onclick="scrollToElement(monstres)" class="nav-button">Monstres</a>
+        <a onclick="scrollToElement(contact)" class="nav-button">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <h1>A propos</h1>
+        <div class="about-section-1">
+          <p>
+            Lethal Company est un jeu vidéo d'horreur indépendant coopératif
+            actuellement en accès anticipé depuis le 23 octobre 2023 sur
+            Windows. Il est développé et auto-édité par un seul développeur,
+            Zeekerss.
+          </p>
+          <p>
+            Vous êtes un membre d'une certaine company et vous devez remplir un
+            certain quota en un tant requis et pour gagner de l'argent, le but
+            est simple : vous atterrissez sur des planètes et vous devez rentrer
+            dans les bâtiments et chercher après des objets et les ramener à la
+            base, mais attention, il y a des monstres.
+          </p>
+        </div>
+        <div class="about-img-wrap">
+          <img
+            src="./images/employee1.png"
+            alt=""
+            class="about-left-side-img"
+          />
+          <img src="./images/employee2.webp" class="about-right-side-img" />
+        </div>
+      </section>
+      <section id="monstres">
+        <h1>Les monstres</h1>
+        <div>
+          <p>
+            Faut faire attention, dans ce jeu, il y a énormément de types de
+            monstres mais il y en a 2 catégories : celles de l'extérieur et
+            celles de l'intérieur.
+          </p>
+          <ul>
+            <li>
+              Celles de l'extérieur sont pas mal dangereuses, il y en a 5 types
+              et les plus connus sont le forest keeper et les chiens.
+            </li>
+            <li>
+              Celles de l'intérieur, il y en a 8 types et la plus connue est le
+              flowerMan.
+            </li>
+          </ul>
+        </div>
+        <div class="monstres-img-wrap">
+          <img
+            src="./images/gardian.webp"
+            alt=""
+            class="monstres-left-side-img"
+          />
+          <img src="./images/bracken.webp" class="monstres-right-side-img" />
+        </div>
+      </section>
+      <section id="contact"></section>
+    </main>
+    <footer>
+      <h1>Contact</h1>
+      <div class="footer-p-wrap">
+        <p>
+          Mail :
+          <a href="mailto:nathan.soleil@gmail.com" target="_blank"
+            >nathan.soleil@gmail.com</a
+          >
+        </p>
+        <p>
+          Instagram :
+          <a href="https://www.instagram.com/nathan.__sl/" target="_blank"
+            >nathan.__sl</a
+          >
+        </p>
+        <p>
+          TikTok :
+          <a href="https://www.tiktok.com/@nathannnsoo" target="_blank"
+            >nathannnsoo</a
+          >
+        </p>
+      </div>
+      <p>&copy; 2023 Lethal Company</p>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
